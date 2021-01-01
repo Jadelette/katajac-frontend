@@ -1,0 +1,35 @@
+{
+    "kataList": 
+    [
+        {
+           "key": "FizzBuzz",
+           "title": "FizzBuzz",
+            "description": "blah",
+            "path": "/fizzbuzz"
+        },
+      {
+           "key": "FizzBuzz",
+           "title": "FizzBuzz2",
+            "description": "blah blah blah",
+            "path": "/fizzbuzz"
+        },
+        {  
+           "key": "Bowling",
+            "title": "Bowling",
+            "description": "blah2",
+            "path": "/bowling"
+            },
+      {
+           "key": "Bowling",
+            "title": "Bowling2",
+            "description": "blahagain",
+            "path": "/bowling"
+            },
+        {  
+           "key": "ShoppingCart",
+            "title": "Shopping Cart",
+            "description": "blah3",
+            "path": "/shopping-cart"
+        }
+    ]
+}

@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './components/Home';
+import FizzBuzz from './components/FizzBuzz';
+import Bowling from './components/Bowling';
+import ShoppingCart from './components/ShoppingCart';
 
-function App() {
+
+
+import katas from './components/data/kata-click.json'
+
+function getComponent(key) {
+  var component = {};
+
+  if(key == "FizzBuzz") {component = FizzBuzz}
+  else if (key == "Bowling") {component = Bowling}
+  else if (key == "ShoppingCart") {component = ShoppingCart}
+  else {component = Home} 
+
+  return component;
+  }
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          {katas.kataList.map((kata) => {
+            return <Route exact path={kata.path} component={getComponent(kata.key)} key={kata.key}/>
+            })}
+        </Switch>
+      </Router>
     </div>
   );
 }
 
-export default App;
