@@ -12,7 +12,6 @@ const useStyles = makeStyles({
 export default function RangeSlider(props) {
   const classes = useStyles();
 
-
   return (
     <div className={classes.root}>
       <Typography id="range-slider" gutterBottom>
