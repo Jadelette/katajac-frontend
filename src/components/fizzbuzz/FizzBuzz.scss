@@ -1,5 +1,12 @@
-.fizzbuzz {
-    background-color: green;
-    width: 500px;
-    height: 500px;
+.fizzbuzz-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkgreen;
+  color: orange;
+}
+
+.fizzbuzz-range-slider-container {
+  display: flex;
+  justify-content: center;
 }

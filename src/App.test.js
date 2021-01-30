@@ -34,5 +34,5 @@ it('renders FizzBuzz kata landing page if given path /fizzbuzz', async() => {
 
   user.click(link);
 
-  expect(await findByText('FizzBuzz: Placeholder')).toBeInTheDocument();
+  expect(await findByText('Welcome to FizzBuzz!')).toBeInTheDocument();
 })
