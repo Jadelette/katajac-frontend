@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 function KataClick(props) {
   return (
-    <Link to={props.path} className="kata-container">
+    <Link to={props.path} className="kata-container" name={props.title} >
     <div >
         <h2>{props.title}</h2>
         <p>{props.description} </p>

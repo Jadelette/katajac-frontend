@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "history": "^5.0.0",
     "prettier": "^2.2.1"
   }
 }

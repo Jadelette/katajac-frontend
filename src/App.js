@@ -6,13 +6,11 @@ import {
   Route
 } from "react-router-dom";
 import Home from './components/Home';
-import FizzBuzz from './components/FizzBuzz';
-import Bowling from './components/Bowling';
-import ShoppingCart from './components/ShoppingCart';
+import FizzBuzz from './components/fizzbuzz/FizzBuzz';
+import Bowling from './components/bowling/Bowling';
+import ShoppingCart from './components/shopping-cart/ShoppingCart';
 
-
-
-import katas from './components/data/kata-click.json'
+import katas from './data/kata-click.json'
 
 function getComponent(key) {
   var component = {};
@@ -30,9 +28,11 @@ export default function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" >
+            <Home data={katas} />
+          </Route>
           {katas.kataList.map((kata) => {
-            return <Route exact path={kata.path} component={getComponent(kata.key)} key={kata.key}/>
+            return <Route exact path={kata.path} component={getComponent(kata.key)} key={kata.key} />
             })}
         </Switch>
       </Router>

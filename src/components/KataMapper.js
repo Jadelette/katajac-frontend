@@ -1,14 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import KataClick from './KataClick';
-import katas from './data/kata-click.json'
 
 
-function KataMapper() {
+function KataMapper(props) {
     return (
         <> 
             {
-                katas.kataList.map((kata) => {
+                props.data.kataList.map((kata) => {
                     return <KataClick 
                         key={kata.key} 
                         title={kata.title} 
