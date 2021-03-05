@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773f0a2e-e724-41ce-aa86-83ca4c339d7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeIncrementSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeViewer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/FizzBuzzRangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeViewer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +57,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Jest.&lt;FizzBuzz&gt;">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -185,6 +169,8 @@
       <workItem from="1610363686406" duration="3640000" />
       <workItem from="1611946895628" duration="270000" />
       <workItem from="1611947465191" duration="21711000" />
+      <workItem from="1613596690594" duration="611000" />
+      <workItem from="1614962898347" duration="6069000" />
     </task>
     <servers />
   </component>

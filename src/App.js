@@ -15,9 +15,9 @@ import katas from './data/kata-click.json'
 function getComponent(key) {
   var component = {};
 
-  if(key == "FizzBuzz") {component = FizzBuzz}
-  else if (key == "Bowling") {component = Bowling}
-  else if (key == "ShoppingCart") {component = ShoppingCart}
+  if(key === "FizzBuzz") {component = FizzBuzz}
+  else if (key === "Bowling") {component = Bowling}
+  else if (key === "ShoppingCart") {component = ShoppingCart}
   else {component = Home} 
 
   return component;

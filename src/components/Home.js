@@ -23,7 +23,7 @@ function Home(props) {
 
 function renderContent(data) {
   const kataList = data.kataList;
-  if (kataList.length != 0) {
+  if (kataList.length !== 0) {
     return (
       <div className="kata-menu" data-testid="kata-menu">
         <KataMapper data={data}/>

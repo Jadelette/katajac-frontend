@@ -15,12 +15,13 @@ export default function RangeSlider(props) {
   return (
     <div className={classes.root}>
       <Typography id="range-slider" gutterBottom>
-        Select range on which to perform FizzBuzz check
+        Select range on which to perform FizzBuzz analysis
       </Typography>
       <Slider
         value={props.value}
         onChange={props.changeHandler}
         valueLabelDisplay="auto"
+        min={1}
         max={1000}
       />
     </div>

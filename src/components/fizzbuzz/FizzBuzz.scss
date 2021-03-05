@@ -6,13 +6,64 @@
   color: orange;
 }
 
-.fizzbuzz-range-container {
+.fizzbuzz-range-selector-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px 50px;
 }
 
 span {
   width:30vw
+}
+
+.range-viewer-container {
+  font-weight: bold;
+  font-size: 14pt;
+  margin-top: 30px;
+}
+
+.fizzbuzz-button {
+  margin-bottom: 30px;
+  font-size: 16pt;
+  font-weight: bold;
+  background-color: gold;
+  border: 2px solid darkgreen;
+  border-radius: 1em;
+  padding: 2px 8px;
+}
+
+#range-slider {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.fizzbuzz-increment-title {
+  font-weight: bold;
+  font-size: 14pt;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.number {
+  background: none;
+}
+
+.fizz {
+  background: none;
+  color: darkblue;
+  font-size: 18pt;
+}
+
+.buzz {
+  background: none;
+  color: darkred;
+  font-size: 18pt;
+}
+
+.fizzbuzz {
+  background: none;
+  color: darkmagenta;
+  font-size: 24pt;
 }
