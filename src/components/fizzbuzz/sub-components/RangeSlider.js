@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function RangeSlider(props) {
+export default function RangeSlider({value, changeHandler}) {
   const classes = useStyles();
 
   return (
@@ -18,10 +18,10 @@ export default function RangeSlider(props) {
         Select range on which to perform FizzBuzz analysis
       </Typography>
       <Slider
-        value={props.value}
-        onChange={props.changeHandler}
+        value={value}
+        onChange={changeHandler}
         valueLabelDisplay="auto"
-        min={1}
+        min={0}
         max={1000}
       />
     </div>

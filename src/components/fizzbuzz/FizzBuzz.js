@@ -7,15 +7,16 @@ import RangeIncrementSelector from "./sub-components/RangeIncrementSelector";
 
 export default function FizzBuzz() {
   const [value, setValue] = React.useState([1, 100]);
-  const [min, setMin] = React.useState(1)
+  const [min, setMin] = React.useState(0)
   const [max, setMax] = React.useState(100)
-  const [increment, setIncrement] = React.useState()
-  const [fizzBuzzOn, setfIzzBuzzOn] = React.useState(false);
+  const [increment, setIncrement] = React.useState(1)
+  const [fizzBuzzOn, setFizzBuzzOn] = React.useState(false);
 
   const handleSliderChange = (event, newValue) => {
     setValue(newValue);
     setMin(Math.min(...newValue))
     setMax(Math.max(...newValue))
+    setIncrement(1)
   };
 
   const handleSelectorChange = (event) => {
@@ -23,7 +24,7 @@ export default function FizzBuzz() {
   }
 
   const handleClick = () => {
-    fizzBuzzOn ? setfIzzBuzzOn(false) : setfIzzBuzzOn(true);
+    fizzBuzzOn ? setFizzBuzzOn(false) : setFizzBuzzOn(true);
   }
 
   return (

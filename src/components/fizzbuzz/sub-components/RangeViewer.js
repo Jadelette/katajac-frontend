@@ -1,11 +1,11 @@
 import React from 'react';
 import {range} from 'lodash';
 
-export default function RangeViewer(props) {
-  var displayedValues = Array.from(range(props.min, props.max + 1, props.increment));
+export default function RangeViewer({min, max, increment, fizzBuzzOn}) {
+  const displayedValues = Array.from(range(min, max + 1, increment));
 
   function determineOutput() {
-    if (props.fizzBuzzOn) {
+    if (fizzBuzzOn) {
       return displayedValues.map(x => applyFizzBuzz(x))
     } else {
       return displayedValues.join(", ");
