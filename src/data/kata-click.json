@@ -3,7 +3,7 @@
         {
             "key": "FizzBuzz",
             "title": "FizzBuzz",
-            "description": "blah",
+            "description": "Create a range between 0 and 1000, then click to find out which numbers are divisible by three and/or five!",
             "path": "/fizzbuzz"
         },
         {

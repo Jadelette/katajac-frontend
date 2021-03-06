@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773f0a2e-e724-41ce-aa86-83ca4c339d7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeViewer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeIncrementSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeIncrementSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KataClick.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KataClick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KataClick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KataClick.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeIncrementSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/RangeIncrementSelector/RangeIncrementSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/RangeSlider/RangeSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/RangeViewer/RangeViewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeViewer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/RangeViewer/RangeViewer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/kata-click.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/kata-click.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +62,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/fizzbuzz/RangeSlider" />
+      <recent name="$PROJECT_DIR$/src/components/fizzbuzz/RangeIncrementSelector" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/shopping-cart" />
       <recent name="$PROJECT_DIR$/src/components/bowling" />
-      <recent name="$PROJECT_DIR$/src/components/fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.when fizzbuzz is not applied">
+  <component name="RunManager" selected="Jest.&lt;RangeViewer /&gt;">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -90,16 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;FizzBuzz&gt;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;RangeViewer /&gt;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/fizzbuzz/sub-components/RangeViewer.test.js" />
       <test-names>
-        <test-name value="&lt;FizzBuzz&gt;" />
+        <test-name value="&lt;RangeViewer /&gt;" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -157,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.&lt;RangeViewer /&gt;" />
         <item itemvalue="Jest.when fizzbuzz is not applied" />
         <item itemvalue="Jest.when fizzbuzz is applied" />
         <item itemvalue="Jest.replaces a number with Fizz! if it is divisible by three" />
         <item itemvalue="Jest.rendersalistofnumberswhenfizzbuzzisnotapplied" />
-        <item itemvalue="Jest.&lt;FizzBuzz&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +192,7 @@
       <workItem from="1611947465191" duration="21711000" />
       <workItem from="1613596690594" duration="611000" />
       <workItem from="1614962898347" duration="6069000" />
-      <workItem from="1614986556121" duration="8316000" />
+      <workItem from="1614986556121" duration="14651000" />
     </task>
     <servers />
   </component>

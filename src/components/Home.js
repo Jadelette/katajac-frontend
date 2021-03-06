@@ -4,7 +4,7 @@ import React from "react";
 
 function Home(props) {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
         <h1 className='page-title'> Katajac </h1>
         <div className='description'>

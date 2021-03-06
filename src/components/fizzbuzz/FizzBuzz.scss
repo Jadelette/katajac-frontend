@@ -11,17 +11,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 50px;
+  max-width: 100%;
 }
 
-span {
-  width:30vw
-}
-
-.range-viewer-container {
-  font-weight: bold;
-  font-size: 14pt;
-  margin-top: 30px;
+.root {
+  width: 300px;
 }
 
 .fizzbuzz-button {
@@ -35,14 +29,15 @@ span {
 }
 
 #range-slider {
-  font-size: 16pt;
+  margin-top: 20px;
+  font-size: 14pt;
   font-weight: bold;
 }
 
 .fizzbuzz-increment-title {
   font-weight: bold;
-  font-size: 14pt;
-  margin-top: 30px;
+  font-size: 12pt;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -53,17 +48,58 @@ span {
 .fizz {
   background: none;
   color: darkblue;
-  font-size: 18pt;
+  font-size: 14pt;
 }
 
 .buzz {
   background: none;
   color: darkred;
-  font-size: 18pt;
+  font-size: 14pt;
 }
 
 .fizzbuzz {
   background: none;
   color: darkmagenta;
-  font-size: 24pt;
+  font-size: 18pt;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .fizzbuzz-range-selector-container {
+    margin: 20px 50px;
+  }
+
+  .root {
+    width: 1000px;
+  }
+
+  span {
+    width: 30vw
+  }
+
+  .range-viewer-container {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-top: 30px;
+  }
+
+  #range-slider {
+    font-size: 16pt;
+  }
+
+  .fizzbuzz-increment-title {
+    margin-top: 30px;
+  }
+
+  .fizz {
+    font-size: 18pt;
+  }
+
+  .buzz {
+    font-size: 18pt;
+  }
+
+  .fizzbuzz {
+    font-size: 24pt;
+  }
 }

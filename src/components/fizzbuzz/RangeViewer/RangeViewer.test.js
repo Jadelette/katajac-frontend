@@ -6,11 +6,7 @@ import RangeViewer from './RangeViewer';
 describe("<RangeViewer />", () => {
   describe('when fizzbuzz is not applied', () => {
     it('renders a list of numbers ', () => {
-      render(< RangeViewer min={1}
-                           max={5}
-                           increment={1}
-                           fizzBuzzOn={false}
-      />)
+      setUp(5, false)
 
       const displayedOutput = screen.getByText("1, 2, 3, 4, 5");
 
@@ -20,11 +16,7 @@ describe("<RangeViewer />", () => {
 
   describe('when fizzbuzz is applied', () => {
     it('replaces a number with Fizz! if it is divisible by three', async () => {
-      render(< RangeViewer min={1}
-                           max={15}
-                           increment={1}
-                           fizzBuzzOn={true}
-      />)
+      setUp(15, true)
 
       const displayedOutput = await screen.findAllByText("Fizz!,");
 
@@ -32,11 +24,7 @@ describe("<RangeViewer />", () => {
     });
 
     it('replaces a number with Buzz! if it is divisible by Five', async () => {
-      render(< RangeViewer min={1}
-                           max={15}
-                           increment={1}
-                           fizzBuzzOn={true}
-      />)
+      setUp(15, true)
 
       const displayedOutput = await screen.findAllByText("Buzz!,");
 
@@ -44,11 +32,7 @@ describe("<RangeViewer />", () => {
     });
 
     it('replaces a number with FizzBuzz! if it is divisible by Three and Five', async () => {
-      render(< RangeViewer min={1}
-                           max={15}
-                           increment={1}
-                           fizzBuzzOn={true}
-      />)
+      setUp(15, true)
 
       const displayedOutput = await screen.findAllByText("FizzBuzz!,");
 
@@ -56,3 +40,11 @@ describe("<RangeViewer />", () => {
     });
   });
 });
+
+function setUp(max, fizzBuzzOn) {
+  return render(< RangeViewer min={1}
+                              max={max}
+                              increment={1}
+                              fizzBuzzOn={fizzBuzzOn}
+  />)
+}

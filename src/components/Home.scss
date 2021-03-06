@@ -1,30 +1,78 @@
-.home-placeholder {
-  font-size: 32px;
-  background-color: lightgray;
-  max-width: 100vw;
-  min-height: 80vh;
+.App-header {
+  background-color: gray;
+  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-}
+  justify-content: center;
 
-.home-placeholder-text {
-  border: 2px dashed darkgray;
-  border-radius: 1em;
-  max-width:30vw;
-  padding: 1em;
-  margin-top: -4em;
-  font-weight: 700;
-  color: gray;
+  .description {
+    max-width: 70vw;
+    margin-bottom: 16px;
+    font-size: 1em;
+  }
 }
 
 .kata-menu {
-  display: flex;
-  justify-content: space-around;
-  flex: 1;
-  flex-wrap: wrap;
   background-color: lightgray;
   max-width: 100vw;
   min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .App-header {
+    min-height: 20vh;
+    min-width: 100vw;
+    justify-content: center;
+    margin-bottom: 0;
+
+    font-size: calc(10px + 2vmin);
+
+
+    .page-title {
+      margin: 24px;
+    }
+
+    .description {
+      max-width: 50vw;
+      font-size: 0.8em;
+    }
+
+  }
+
+  .home-placeholder {
+    font-size: 32px;
+    background-color: lightgray;
+    max-width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .home-placeholder-text {
+    border: 2px dashed darkgray;
+    border-radius: 1em;
+    max-width: 30vw;
+    padding: 1em;
+    margin-top: -4em;
+    font-weight: 700;
+    color: gray;
+  }
+
+  .kata-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex: 1;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    min-height: 80vh;
+  }
 }

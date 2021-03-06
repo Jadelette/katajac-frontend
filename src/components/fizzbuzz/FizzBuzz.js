@@ -1,13 +1,13 @@
 import React from 'react';
-import RangeSlider from "./sub-components/RangeSlider";
+import RangeSlider from "./RangeSlider/RangeSlider";
 
 import './FizzBuzz.scss';
-import RangeViewer from "./sub-components/RangeViewer";
-import RangeIncrementSelector from "./sub-components/RangeIncrementSelector";
+import RangeViewer from "./RangeViewer/RangeViewer";
+import RangeIncrementSelector from "./RangeIncrementSelector/RangeIncrementSelector";
 
 export default function FizzBuzz() {
   const [value, setValue] = React.useState([1, 100]);
-  const [min, setMin] = React.useState(0)
+  const [min, setMin] = React.useState(1)
   const [max, setMax] = React.useState(100)
   const [increment, setIncrement] = React.useState(1)
   const [fizzBuzzOn, setFizzBuzzOn] = React.useState(false);

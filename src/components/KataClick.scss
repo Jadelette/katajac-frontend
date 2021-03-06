@@ -1,16 +1,29 @@
 .kata-container {
-    flex: 1;
-    min-width: 20vw;
-    max-width: 50vw;
-    min-height: 25vh;
-    max-height: 25vh;
     background-color: #bcc4cf;
-    
-    box-shadow: 10px 10px 5px 0px rgba(120,147,187,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(120,147,187,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(120,147,187,0.75);
+    min-height: 25vh;
+
+    min-width: 80vw;
+    min-height: 15vh;
+
+    box-shadow: 10px 10px 5px 0px rgba(120, 147, 187, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(120, 147, 187, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(120, 147, 187, 0.75);
     margin: 16px;
 
     border-radius: 1em;
     text-decoration: none;
+}
+
+.kataclick-link {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+    .kata-container {
+        flex: 1;
+        min-width: 20vw;
+        max-width: 50vw;
+        min-height: 25vh;
+        max-height: 25vh;
+    }
 }
