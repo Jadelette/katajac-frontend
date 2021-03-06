@@ -15,11 +15,15 @@ export default function RangeIncrementSelector({min, max, increment, changeHandl
   }, [min, max]);
 
   function generateMenuOptions() {
-    const options = possibleValues.filter((value => max % value === 0 && min % value === 0))
+    const options = possibleValues.filter(value => ensureSliderValuesDivisible(value));
     return options.map(option => {
       return <MenuItem key={option} value={option}>{option}</MenuItem>
     })
   };
+
+  function ensureSliderValuesDivisible(value) {
+    return min === 1 ? max % value === 0 : max % value === 0 && min % value === 0
+  }
 
   return (
     <div>

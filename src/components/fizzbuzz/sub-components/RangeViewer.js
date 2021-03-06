@@ -19,13 +19,13 @@ export default function RangeViewer({min, max, increment, fizzBuzzOn}) {
 
   function applyFizzBuzz(x) {
    if (x % 3 === 0 && x % 5 !== 0) {
-      return <mark className="fizz"> Fizz!,  </mark>;
+      return <mark className="fizz" key={x}> Fizz!,  </mark>;
     } else if (x % 5 === 0 && x % 3 !== 0) {
-      return <mark className="buzz">Buzz!, </mark>;
+      return <mark className="buzz" key={x}>Buzz!, </mark>;
     } else if (x % 3 === 0 && x % 5 === 0) {
-      return <mark className="fizzbuzz">FizzBuzz!, </mark>;
+      return <mark className="fizzbuzz" key={x}>FizzBuzz!, </mark>;
     } else {
-      return <mark className="number">{x + ", "}</mark>;
+      return <mark className="number" key={x}>{x + ", "}</mark>;
     }
   }
 }
