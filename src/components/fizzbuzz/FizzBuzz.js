@@ -4,6 +4,7 @@ import RangeSlider from "./RangeSlider/RangeSlider";
 import './FizzBuzz.scss';
 import RangeViewer from "./RangeViewer/RangeViewer";
 import RangeIncrementSelector from "./RangeIncrementSelector/RangeIncrementSelector";
+import {Link, Router} from "react-router-dom";
 
 export default function FizzBuzz() {
   const [value, setValue] = React.useState([1, 100]);
@@ -33,6 +34,9 @@ export default function FizzBuzz() {
         <h1>Welcome to FizzBuzz!</h1>
         <h3>Discover which numbers in a chosen range are divisible by 3 (Fizz!) and 5 (Buzz!)</h3>
       </div>
+
+      <a href="/" className={"left-link"}> Back to home</a>
+
       <div className='fizzbuzz-range-selector-container' data-testid='fizzbuzz-range-slider'>
         <RangeSlider changeHandler={handleSliderChange} value={value}/>
         <span className="fizzbuzz-increment-title">Choose an increment between 1 - 12. </span>

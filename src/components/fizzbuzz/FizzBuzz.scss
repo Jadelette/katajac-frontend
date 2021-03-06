@@ -2,8 +2,32 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: darkgreen;
-  color: orange;
+  background-color: black;
+  color: white;
+
+  h1  {
+    font-size: 30pt;
+    background-image:
+            -webkit-gradient(
+                            linear, right top, right bottom,
+                            color-stop(0.4, #FB0F64),
+                            color-stop(0.7,#D4FE20),
+                            color-stop(0.8, #6EFF1D)
+            );
+
+
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-stroke: 2px black;
+    margin-bottom: 5px;
+  }
+
+  h3  {
+    color: #6EFF1D;
+  }
+
 }
 
 .fizzbuzz-range-selector-container {
@@ -63,8 +87,25 @@
   font-size: 18pt;
 }
 
+body {
+  background-color:white;
+}
+
+.left-link {
+  display: block;
+  text-align: left;
+  position: relative;
+  margin-left: 10px;
+}
+
 
 @media screen and (min-width: 1000px) {
+  .fizzbuzz-header {
+    h1 {
+      font-size: 40pt;
+    }
+  }
+
   .fizzbuzz-range-selector-container {
     margin: 20px 50px;
   }
