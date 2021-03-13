@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="773f0a2e-e724-41ce-aa86-83ca4c339d7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bowling/Bowling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bowling/Bowling.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/FizzBuzz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/RangeIncrementSelector/RangeIncrementSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/RangeIncrementSelector/RangeIncrementSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fizzbuzz/RangeSlider/RangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fizzbuzz/RangeSlider/RangeSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shopping-cart/ShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopping-cart/ShoppingCart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,17 +82,6 @@
       <setting name="customPortFile" value="" />
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="&lt;RangeViewer /&gt;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -179,7 +173,10 @@
       <workItem from="1611947465191" duration="21711000" />
       <workItem from="1613596690594" duration="611000" />
       <workItem from="1614962898347" duration="6069000" />
-      <workItem from="1614986556121" duration="17695000" />
+      <workItem from="1614986556121" duration="19067000" />
+      <workItem from="1615367220923" duration="1275000" />
+      <workItem from="1615400712765" duration="706000" />
+      <workItem from="1615654796730" duration="311000" />
     </task>
     <servers />
   </component>
