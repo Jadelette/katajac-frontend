@@ -16,8 +16,8 @@ const fakeKataData = {
         "path": "/fizzbuzz"
       },
       {
-        "key": "Bowling",
-        "title": "Bowling",
+        "key": "ToDoList",
+        "title": "ToDoList",
         "description": "blah blah",
         "path": "/bowling"
       }
@@ -53,7 +53,7 @@ describe("<Home >", () => {
         expect(kataMenu).toBeInTheDocument();
         expect(kataBadges.length).toBe(2);
         expect(kataBadges[0].textContent).toContain("FizzBuzz");
-        expect(kataBadges[1].textContent).toContain("Bowling");
+        expect(kataBadges[1].textContent).toContain("ToDoList");
       });
     });
   });

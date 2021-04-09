@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home';
 import FizzBuzz from './components/fizzbuzz/FizzBuzz';
-import Bowling from './components/bowling/Bowling';
+import ToDoList from './components/todo-list/ToDoList';
 import ShoppingCart from './components/shopping-cart/ShoppingCart';
 
 import katas from './data/kata-click.json'
@@ -16,7 +16,7 @@ function getComponent(key) {
   var component = {};
 
   if(key === "FizzBuzz") {component = FizzBuzz}
-  else if (key === "Bowling") {component = Bowling}
+  else if (key === "ToDoList") {component = ToDoList}
   else if (key === "ShoppingCart") {component = ShoppingCart}
   else {component = Home} 
 

@@ -7,10 +7,10 @@
             "path": "/fizzbuzz"
         },
         {
-            "key": "Bowling",
-            "title": "Bowling",
-            "description": "blah2",
-            "path": "/bowling"
+            "key": "ToDoList",
+            "title": "To-do list",
+            "description": "A list of things to do",
+            "path": "/todo"
         },
         {
             "key": "ShoppingCart",
